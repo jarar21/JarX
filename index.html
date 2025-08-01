@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JarX – Decentralized AI Infrastructure</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
-    <div class="container">
+    <div class="header-container">
       <h1 class="logo">JarX</h1>
       <nav>
         <a href="#about">About</a>
@@ -23,180 +25,101 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-container">
-      <div class="hero-content">
-        <h2>Empowering Autonomous AI on Decentralized Networks</h2>
-        <p>JarX pioneers <strong>aAI</strong> — sovereign, self-improving agents powered by blockchain incentives and decentralized compute.</p>
-        <div class="hero-icons">
-          <i class="fab fa-xing"></i>
-          <i class="fab fa-telegram-plane"></i>
-          <i class="fas fa-circle-notch"></i>
-          <i class="fas fa-asterisk"></i>
-        </div>
-      </div>
-      <div class="presale-widget">
-        <h3>Buy Now <br><span>Before Price Rises</span></h3>
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: 85%;"></div>
-          <span>85.15% Sold</span>
-        </div>
-        <div class="stats">
-          <p><strong>USD RAISED SO FAR:</strong> $4,257,512.33</p>
-          <p><strong>Tokens Sold:</strong> 85,150,246.60</p>
-        </div>
-        <div class="price-info">
-          <p>1 $JARX = $0.05</p>
-          <p class="next-price">Next Price: $0.06</p>
-        </div>
-        <div class="payment-options">
-          <button class="payment-btn"><i class="fab fa-ethereum"></i> ETH</button>
-          <button class="payment-btn active"><i class="fas fa-coins"></i> USDT</button>
-          <button class="payment-btn"><i class="fas fa-credit-card"></i> CARD</button>
-        </div>
-        <div class="input-group">
-          <label>USDT you pay</label>
-          <div class="input-field">
-            <input type="text" placeholder="0">
-            <i class="fas fa-coins"></i>
+  <main>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>Cross-border Payments<br><span class="highlight">Reinvented</span></h1>
+          <p>JarX enables users to pay fiat into any bank account around the world using crypto, by just simply connecting your wallet. Welcome to the PayFi revolution!</p>
+          <div class="hero-icons">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-solid fa-asterisk"></i>
           </div>
         </div>
-        <div class="input-group">
-          <label>$JARX you receive</label>
-          <div class="input-field">
-            <input type="text" placeholder="0" readonly>
-            <span class="logo-icon">J</span>
+        <div class="presale-widget">
+          <h3>Buy Now <br><span class="subtitle">Before Price Rises</span></h3>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 99.21%;"></div>
+            <span class="progress-text">99.21% Sold</span>
           </div>
+          <div class="stats">
+            <p>USD RAISED SO FAR : $17,882,114.59</p>
+            <p>Tokens Sold : 577,760,519.39</p>
+          </div>
+          <div class="price-info">
+            <p>1 $JARX = $0.0876</p>
+            <p class="next-price">Next Price: $0.0895</p>
+          </div>
+          <div class="payment-options">
+            <button class="payment-btn"><i class="fa-brands fa-ethereum"></i> ETH</button>
+            <button class="payment-btn active"><i class="fa-solid fa-t"></i> USDT</button>
+            <button class="payment-btn"><i class="fa-solid fa-credit-card"></i> CARD</button>
+          </div>
+          <div class="input-group">
+            <label>USDT you pay</label>
+            <div class="input-field">
+              <input type="text" placeholder="0">
+              <i class="fa-solid fa-t"></i>
+            </div>
+          </div>
+          <div class="input-group">
+            <label>$JARX you receive</label>
+            <div class="input-field">
+              <input type="text" placeholder="0" readonly>
+              <span class="jarx-icon">J</span>
+            </div>
+          </div>
+          <button class="btn-main">Connect Wallet & Pay</button>
+          <a href="#" class="giveaway-link">$250,000 Giveaway</a>
         </div>
-        <button class="btn-main">Connect Wallet & Pay</button>
-        <a href="#" class="giveaway-link">$100,000 Giveaway</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About JarX</h2>
-      <div class="content-grid">
-        <div class="text">
-          <p>JarX is a cutting-edge crypto-AI protocol designed to create, host, and scale autonomous agents, decentralized models, and persistent AI logic. Our platform enables a network of intelligent agents that learn, collaborate, and transact seamlessly without centralized control.</p>
-          <p>By leveraging blockchain technology, JarX ensures trustless coordination, privacy-first operations, and incentivized participation through JarX Coin. Our goal is to redefine AI infrastructure for a decentralized future.</p>
+    <section id="about" class="section">
+        <div class="container">
+          <h2>About JarX</h2>
+          <p>Details about the JarX project...</p>
         </div>
-        <div class="image">
-          <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?auto=format&fit=crop&w=800&q=80" alt="Decentralized AI Concept" />
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="vision" class="section alt">
-    <div class="container">
-      <h2>Our Vision</h2>
-      <div class="vision-grid">
-        <div class="vision-item">
-          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" alt="AI Agents" />
-          <h3>Launch aAI</h3>
-          <p>Develop self-trained autonomous agents with real-world applications in finance, logistics, and more.</p>
+    <section id="vision" class="section alt">
+        <div class="container">
+          <h2>Our Vision</h2>
+          <p>The long-term vision of JarX...</p>
         </div>
-        <div class="vision-item">
-          <img src="https://images.unsplash.com/photo-1561736778-92e68d6a9fd3?auto=format&fit=crop&w=400&q=80" alt="Compute Marketplace" />
-          <h3>Compute Marketplace</h3>
-          <p>Create a decentralized marketplace for on-chain AI training and inference compute resources.</p>
-        </div>
-        <div class="vision-item">
-          <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&q=80" alt="Privacy Coordination" />
-          <h3>Privacy-First Coordination</h3>
-          <p>Enable secure, trustless interactions between agents using zero-knowledge proofs.</p>
-        </div>
-        <div class="vision-item">
-          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80" alt="Token Incentives" />
-          <h3>Token Incentives</h3>
-          <p>Drive ecosystem growth with JarX Coin rewards for compute, data, and governance contributions.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="roadmap" class="section">
-    <div class="container">
-      <h2>Roadmap</h2>
-      <div class="roadmap-timeline">
-        <div class="roadmap-item">
-          <h3>Q1 2025</h3>
-          <p>Testnet launch for decentralized AI compute nodes.</p>
+     <section id="roadmap" class="section">
+        <div class="container">
+          <h2>Roadmap</h2>
+          <p>The project roadmap and milestones...</p>
         </div>
-        <div class="roadmap-item">
-          <h3>Q3 2025</h3>
-          <p>JarX Coin token generation event and exchange listings.</p>
-        </div>
-        <div class="roadmap-item">
-          <h3>Q1 2026</h3>
-          <p>Mainnet launch with aAI agent deployment.</p>
-        </div>
-        <div class="roadmap-item">
-          <h3>Q4 2026</h3>
-          <p>Full compute marketplace and governance activation.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="team" class="section alt">
-    <div class="container">
-      <h2>Our Team</h2>
-      <div class="team-grid">
-        <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Team Member" />
-          <h3>Dr. Alex Carter</h3>
-          <p>Founder & CEO</p>
-          <p>Expert in AI and blockchain with 15+ years in distributed systems.</p>
+    <section id="team" class="section alt">
+        <div class="container">
+          <h2>Our Team</h2>
+          <p>Information about the team members...</p>
         </div>
-        <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Team Member" />
-          <h3>Sarah Lin</h3>
-          <p>Chief Technology Officer</p>
-          <p>Leads development of decentralized AI protocols.</p>
-        </div>
-        <div class="team-member">
-          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80" alt="Team Member" />
-          <h3>Mark Evans</h3>
-          <p>Head of Tokenomics</p>
-          <p>Designs incentive structures for JarX Coin.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="token" class="section">
-    <div class="container">
-      <h2>JarX Coin Utility</h2>
-      <p>JarX Coin is the backbone of our decentralized AI ecosystem, enabling:</p>
-      <div class="content-grid">
-        <ul>
-          <li><strong>Access</strong>: Use JarX Coin to interact with AI agents and models.</li>
-          <li><strong>Governance</strong>: Vote on protocol upgrades and resource allocation.</li>
-          <li><strong>Staking</strong>: Earn rewards by contributing compute power to the network.</li>
-          <li><strong>Collaboration</strong>: Get rewarded for sharing data and improving models.</li>
-        </ul>
-        <div class="image">
-          <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=800&q=80" alt="JarX Coin" />
+    <section id="token" class="section">
+        <div class="container">
+          <h2>JarX Coin</h2>
+          <p>Details about the tokenomics and utility...</p>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="section alt">
-    <div class="container">
-      <h2>Get in Touch</h2>
-      <p>Join the JarX community or reach out for partnerships and inquiries.</p>
-      <div class="contact-grid">
-        <p>Email: <a href="mailto:founder@jarx.ai">founder@jarx.ai</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-        <p>Twitter: <a href="https://twitter.com/jarxprotocol">twitter.com/jarxprotocol</a></p>
-        <p>Discord: <a href="https://discord.gg/jarxcommunity">discord.gg/jarxcommunity</a></p>
-      </div>
-    </div>
-  </section>
+    <section id="contact" class="section alt">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>How to get in touch with the team...</p>
+        </div>
+    </section>
+
+  </main>
 
   <footer>
     <div class="container">
