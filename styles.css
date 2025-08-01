@@ -19,6 +19,12 @@ body {
   margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* --- Header --- */
 header {
   background-color: rgba(13, 17, 23, 0.8);
@@ -74,7 +80,7 @@ main {
 
 .section h2 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-bottom: 40px;
   color: #fff;
@@ -87,7 +93,7 @@ main {
 
 .hero-container {
   display: grid;
-  grid-template-columns: 1fr 420px; /* Adjust column width for the widget */
+  grid-template-columns: 1fr 420px;
   gap: 60px;
   align-items: center;
   width: 90%;
@@ -105,7 +111,7 @@ main {
 }
 
 .hero-content h1 .highlight {
-  color: #f0b90b; /* Yellow highlight color */
+  color: #f0b90b;
 }
 
 .hero-content p {
@@ -121,7 +127,7 @@ main {
   color: #fff;
 }
 
-/* --- Presale Widget --- */
+/* --- Presale Widget (No changes) --- */
 .presale-widget {
   background-color: #161b22;
   border: 1px solid #f0b90b;
@@ -287,6 +293,210 @@ main {
   border: 1px solid #30363d;
 }
 
+/* --- Content Grid Layout (About, Token) --- */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.content-grid .text-content h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content-grid .image-content img {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Vision Section --- */
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.vision-item {
+    background: #0d1117;
+    border: 1px solid #21262d;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vision-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.vision-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.vision-item h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #f0b90b;
+    margin-bottom: 10px;
+}
+
+/* --- Roadmap Section --- */
+.roadmap-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.roadmap-timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: #f0b90b;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.roadmap-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.roadmap-item::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #161b22;
+  border: 4px solid #f0b90b;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.roadmap-item.left {
+  left: 0;
+}
+
+.roadmap-item.right {
+  left: 50%;
+}
+
+.roadmap-item.left::after {
+  right: -10px;
+}
+
+.roadmap-item.right::after {
+  left: -10px;
+}
+
+.roadmap-content {
+  padding: 20px;
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  position: relative;
+}
+
+.roadmap-content h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+.roadmap-date {
+  color: #f0b90b;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* --- Team Section --- */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+.team-member {
+    background: #0d1117;
+    border: 1px solid #21262d;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px auto;
+    border: 4px solid #21262d;
+}
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.team-member .title {
+    color: #f0b90b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* --- Token Section --- */
+.token-utility-list {
+  list-style: none;
+  padding: 0;
+}
+.token-utility-list li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.token-utility-list i {
+  color: #f0b90b;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  width: 25px;
+  text-align: center;
+}
+
+/* --- Contact Section --- */
+.contact-container {
+    text-align: center;
+}
+.contact-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact-btn {
+    background-color: #f0b90b;
+    color: #0d1117;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+.contact-btn:hover {
+    transform: scale(1.05);
+}
+.contact-btn i {
+    margin-right: 10px;
+}
+
 /* --- Footer --- */
 footer {
     background-color: #161b22;
@@ -294,11 +504,12 @@ footer {
     text-align: center;
     color: #8b949e;
     font-size: 0.9rem;
+    border-top: 1px solid #21262d;
 }
 
 /* --- Responsive Styles --- */
 @media (max-width: 992px) {
-    .hero-container {
+    .hero-container, .content-grid {
         grid-template-columns: 1fr;
         gap: 60px;
     }
@@ -315,6 +526,12 @@ footer {
     .hero-icons {
         justify-content: center;
     }
+    .section h2, .content-grid .text-content h2 {
+        text-align: center;
+    }
+    .content-grid .image-content {
+      order: -1; /* Flips image to be on top on mobile */
+    }
 }
 
 @media (max-width: 768px) {
@@ -324,7 +541,21 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    .presale-widget {
-        /* No changes needed, it scales well */
+    .section h2 {
+        font-size: 2.2rem;
+    }
+    .roadmap-timeline::after {
+        left: 20px;
+    }
+    .roadmap-item {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    .roadmap-item.right {
+        left: 0;
+    }
+    .roadmap-item.left::after, .roadmap-item.right::after {
+        left: 10px;
     }
 }
