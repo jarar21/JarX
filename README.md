@@ -48,7 +48,7 @@ We believe in creating something open, light, and elegant—no bloated hype, jus
 
 | Property        | Value             |
 |----------------|-------------------|
-| **Token Name** | JarX              |
+| **Token Name** | JarrX              |
 | **Symbol**     | JARX              |
 | **Supply**     | 100,000,000       |
 | **Chain**      | Binance Smart Chain |
