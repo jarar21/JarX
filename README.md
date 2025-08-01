@@ -1,6 +1,6 @@
 <h1 align="center">🚀 JarX Protocol</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jarar21/JarX/main/logo.png" alt="JarX Logo" width="120"/>
+  <img src="https://raw.githubusercontent.com/jarar21/JarX/main/assets/logo.png" alt="JarX Logo" width="120"/>
 </p>
 <p align="center">
   A community-powered token protocol for the future of secure, decentralized, and transparent innovation.
