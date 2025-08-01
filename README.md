@@ -1,114 +1,111 @@
 <h1 align="center">🚀 JarX Protocol</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jarar21/JarX/main/assets/logo.png" alt="JarX Logo" width="120"/>
-</p>
-<p align="center">
-  A community-powered token protocol for the future of secure, decentralized, and transparent innovation.
+  <img src="https://jarar21.github.io/JarX/assets/logo.png" alt="JarX Logo" width="100"/>
 </p>
 
-<p align="center">
-  <a href="https://jarar21.github.io/JarX/" target="_blank">🌐 Visit Website</a> •
-  <a href="https://github.com/jarar21/JarX">📦 Source Code</a> •
-  <a href="#roadmap">🗺️ Roadmap</a> •
-  <a href="#tokenomics">💰 Tokenomics</a> •
-  <a href="#contact">📬 Contact</a>
-</p>
+> **Decentralized AI Infrastructure** for a borderless, trustless intelligence economy.
 
 ---
 
-## 📖 Overview
+## 🌐 Live Project
 
-**JarX** is a decentralized token protocol designed to empower communities with transparency, immutability, and vision. With a minimal yet meaningful design, JarX represents the growing desire for decentralized control and fair value exchange in modern digital ecosystems.
-
-Whether you're a developer, holder, or a curious onlooker, JarX welcomes you.
-
----
-
-## 🔥 Key Features
-
-- ✅ **Decentralized**: Built on blockchain principles with no central control.
-- ✅ **Community-Powered**: Driven by contributors and believers.
-- ✅ **Transparent**: Open-source and fully verifiable.
-- ✅ **Fair Launch**: No presales, no private deals, just public access.
-- ✅ **Scalable Website**: Deployed via GitHub Pages for maximum accessibility.
+- 🔗 **Website**: [jarar21.github.io/JarX](https://jarar21.github.io/JarX/)
+- 📜 **Smart Contract**: [`0x2D361Dec56BF7B79343D8EF38B0CF4625a89E36C`](https://bscscan.com/token/0x2D361Dec56BF7B79343D8EF38B0CF4625a89E36C)
+- 💰 **Token Symbol**: `$JARX`
+- 📦 **Total Supply**: 100,000,000
+- 🛠️ **Chain**: Binance Smart Chain (BEP-20)
 
 ---
 
-## 🧬 Project Philosophy
+## 🚀 What is JarX?
 
-> *"Build slowly, launch fairly, and grow with the community."*
+JarX is a decentralized protocol designed to democratize the future of AI. We enable anyone to deploy, run, and profit from autonomous AI agents over a crypto-incentivized compute network—free from centralized control.
 
-JarX doesn’t claim to solve all problems. Instead, it aims to represent **integrity**, **freedom**, and **potential**—the raw building blocks of all lasting innovation.
+This isn’t just another token. JarX is laying the foundation for:
 
-We believe in creating something open, light, and elegant—no bloated hype, just code and community.
-
----
-
-## 📊 Tokenomics
-
-| Property        | Value             |
-|----------------|-------------------|
-| **Token Name** | JarrX              |
-| **Symbol**     | JARX              |
-| **Supply**     | 100,000,000       |
-| **Chain**      | Binance Smart Chain |
-| **Contract**   | `0x...` *(TBA)*   |
-| **Ownership**  | Renounced         |
-| **Liquidity**  | Locked (Soon)     |
-
-> 📌 Note: Contract will be published soon after initial testing.
+- Autonomous AI economies
+- Decentralized fine-tuning & inference
+- Permissionless compute marketplaces
+- Token-governed protocol upgrades
 
 ---
 
-## 🚀 Roadmap
+## 🔮 Our Vision
 
-| Phase        | Description                                      | Status       |
-|--------------|--------------------------------------------------|--------------|
-| **Phase 1**  | Launch GitHub repo + Website                     | ✅ Completed |
-| **Phase 2**  | Token Contract Deployment + Verification         | 🔄 Ongoing   |
-| **Phase 3**  | Listing on Token Trackers (e.g., Trust Wallet)   | 🔄 Ongoing   |
-| **Phase 4**  | Community Growth + DAO Ideas                     | 🕒 Coming Soon |
-| **Phase 5**  | Partnerships, Expansion, and Surprise Utilities  | 🔜 Planning |
+> *“No borders. No gatekeepers. Just pure intelligence.”*
 
----
+JarX aims to be the **Web3 backbone for AI** by offering:
 
-## 🖼️ Screenshots
+- ⚙️ **Decentralized Fine-Tuning**
+- ⚡ **Distributed Inference**
+- 🤖 **Autonomous AI Agents**
+- 🔐 **Privacy & On-Chain Governance**
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jarar21/JarX/main/assets/preview.png" width="700" alt="JarX Screenshot">
-</p>
+We believe in an open ecosystem where AI isn't monopolized, but **shared and owned by the people** who build and use it.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧬 Token Utility
 
-- **HTML5 / CSS3 / JavaScript**
-- **GitHub Pages** for static hosting
-- **Markdown** for documentation
-- **Binance Smart Chain** (for token launch)
+| Use Case                  | Description |
+|---------------------------|-------------|
+| 💸 **AI Payments**         | Pay for compute, access agents, and run decentralized AI tasks |
+| 🔒 **Staking & Security**  | Stake $JARX to secure the network and earn rewards |
+| 🗳️ **On-Chain Governance** | Vote on protocol upgrades and funding decisions |
+| 🎁 **Ecosystem Incentives**| Reward developers, contributors, and node operators |
+
+---
+
+## 🛣️ Roadmap
+
+| Phase                          | Timeline     | Status     |
+|-------------------------------|--------------|------------|
+| Protocol Architecture Design  | Q3 2025      | ✅ Complete |
+| Agent Execution Testnet       | Q4 2025      | 🔄 In Progress |
+| Public Mainnet Launch         | Q2 2026      | 🕒 Upcoming |
+| Agent Marketplace & APIs      | Q4 2026      | 🕒 Upcoming |
+| Autonomous AI Economy         | 2027+        | ⏳ Long-Term Vision |
+
+---
+
+## 💡 Features
+
+- 🌍 **Fully Decentralized**
+- 🧠 **AI Agent Execution Framework**
+- 💵 **Crypto-Backed Incentive Layer**
+- 🛡️ **Staking + DAO Governance**
+- 🛠️ **Open to Builders Worldwide**
+
+---
+
+## 📸 Sneak Peek
+
+> Here’s a live preview of the landing site:
+
+![Preview](https://jarar21.github.io/JarX/assets/preview.png)
+
+---
+
+## 🤝 Contribute
+
+We’re open to collaboration and contributions. Whether you're a developer, researcher, designer, or crypto enthusiast—JarX welcomes your ideas.
+
+Start with a GitHub issue, or fork the repo and make a pull request.
 
 ---
 
 ## 📬 Contact
 
-For collaborations, questions, or listings, reach out to us:
-
-- 📧 **Official Email:** [malakjarar21@gmail.com](mailto:malakjarar21@gmail.com)
-- 🧑‍💻 **Project Lead:** [Jarar Ahmad](https://github.com/jarar21)
-- 🌐 **Live Site:** [https://jarar21.github.io/JarX/](https://jarar21.github.io/JarX/)
+- 💼 **Lead**: Jarar Ahmad  
+- 📧 **Email**: [malakjarar21@gmail.com](mailto:malakjarar21@gmail.com)  
+- 🌐 **Website**: [https://jarar21.github.io/JarX](https://jarar21.github.io/JarX)
 
 ---
 
-## 🙏 Acknowledgments
+## ⭐️ Support Us
 
-We thank the open-source community for inspiration and the builders who still believe in decentralized innovation. You are the reason projects like JarX can exist.
-
----
-
-## ⭐️ Give a Star!
-
-If you believe in the mission or like the aesthetic, please consider giving this repo a ⭐️. It helps us grow and reach more people.
+If you believe in decentralized AI, please give this project a ⭐️ on GitHub to help it reach more builders.
 
 ---
 
-> *This project is a work in progress. Stay tuned. Stay curious.*
+> ⚠️ Disclaimer: This project is experimental and under active development. Use at your own risk. Always DYOR.
